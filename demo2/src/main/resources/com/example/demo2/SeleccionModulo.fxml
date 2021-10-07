@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="306.0" prefWidth="410.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.SeleccionModulo">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label text="Seleccione el modulo al que desea ingresar" />
+   <ComboBox fx:id="comboBox"  prefWidth="150.0" />
+   <Button mnemonicParsing="false" text="Seleccionar" onAction="#seleccion" />
+</VBox>

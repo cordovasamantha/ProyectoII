@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="302.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Ingreso">
+   <children>
+      <TextField layoutX="216.0" layoutY="116.0" />
+      <Label layoutX="147.0" layoutY="43.0" text="Ingrese los datos del vehiculo" />
+      <Label layoutX="103.0" layoutY="120.0" text="Numero de Placas" />
+      <Label layoutX="103.0" layoutY="85.0" text="Tipo de Vehiculo" />
+      <ComboBox fx:id="tipoVehiculo" layoutX="216.0" layoutY="81.0" prefHeight="25.0" prefWidth="149.0" promptText="Tipo de Vehiculo" />
+      <TextField layoutX="217.0" layoutY="149.0" />
+      <Label layoutX="104.0" layoutY="153.0" text="Marca" />
+
+      <Button layoutX="196.0" layoutY="201.0" mnemonicParsing="false" text="Aceptar" onAction="#seleccion"/>
+
+   </children>
+</AnchorPane>
